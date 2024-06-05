@@ -1,0 +1,2 @@
+CIRCUITPY_WIFI_SSID="add your wifi ssid here"
+CIRCUITPY_WIFI_PASSWORD="wifi password here"
