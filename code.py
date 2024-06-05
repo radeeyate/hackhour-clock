@@ -19,7 +19,7 @@ while True:
         continue
 
 pool = adafruit_connection_manager.get_radio_socketpool(wifi.radio)
-ntp = adafruit_ntp.NTP(pool, tz_offset=-6)
+ntp = adafruit_ntp.NTP(pool, tz_offset=-6) # configure to your time zone
 
 previous_second = None  # store the previous second value
 
